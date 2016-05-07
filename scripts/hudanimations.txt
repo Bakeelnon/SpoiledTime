@@ -1,0 +1,11 @@
+event HitMarkerShow
+{
+	Animate HudHitmarker Alpha 255 Linear 0.2 0.4
+	
+	RunEvent HitMarkerHide 0.4
+}
+
+event HitMarkerHide
+{
+	Animate HudHitmarker Alpha 0 Linear 0.2 0.4
+}
