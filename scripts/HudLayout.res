@@ -563,4 +563,17 @@
 	"PaintBackgroundType" "2"
 
 }
+//эффект
+InfoROD 
+{
+"fieldName" "HudInfo"
+"visible" "1"
+"enabled" "1"  // активирован или нет
+"xpos" "16"    // положение по x
+"ypos" "200"   // положение по y
+"wide" "50"
+"tall" "30"
+
+"PaintBackgroundType" "0"
+}
 }
